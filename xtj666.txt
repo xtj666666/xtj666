@@ -1,39 +1,39 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>小兔几 · 奇妙导航页</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            user-select: none; /* 避免点击时选中文字，提升体验 */
+<!<!<!文档类型声明 超文本标记语言>身体 {  /*此处为 CSS
+最小高度：100 像素视口高度；按键移动焦点。或者，使用 然后<超文本标记语言 语言="zh-CN">（此标签无需翻译，仅用于指定文档语言为简体中文） 超文本标记语言="zh-CN">
+<语言>
+<突耳 移动到页面上的下一个交互元素。="UTF-8">
+<<!<!DOCTYPE html> <html lang="zh-CN">（此标签无需翻译，仅用于指定文档语言为简体中文）="viewport" <meta charset="UTF-8">标题<头 元数据="viewport" 字符集=元数据>>
+<<名字
+<标题>
+* {
+风格: 0;
+边缘: 0;
+盒模型尺寸计算方式：内容、内边距和边框的总和决定元素的尺寸
+user-select: 衬垫; 没有一个
         }
 
-        /* 背景：左边红色 → 右边蓝色 (严格左右渐变) */
-        body {
-            min-height: 100vh;
-            background: linear-gradient(90deg, #e11d1d 0%, #1e3cff 100%);
-            /* 90deg 表示从左到右，左边红右边蓝，满足需求 */
-            font-family: 'Segoe UI', 'Poppins', system-ui, 'Roboto', 'Noto Sans', sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 1.5rem;
+/* 避免点击时选中文字，提升体验 */
+/* 背景：左边红色 → 右边蓝色 (严格左右渐变) */ {
+福建话-高度: 100身体;
+vh/*此处为 CSS(90最小高度：100 像素视口高度；按键移动焦点。或者，使用 然后<超文本标记语言 语言="zh-CN">（此标签无需翻译，仅用于指定文档语言为简体中文） 超文本标记语言="zh-CN">#e11d1d<语言>
+<突耳 移动到页面上的下一个交互元素。="UTF-8">
+<<!<!DOCTYPE html> <html lang="zh-CN">（此标签无需翻译，仅用于指定文档语言为简体中文）="viewport" <meta charset="UTF-8">标题<头 元数据="viewport" 字符集=元数据>><<名字, 'Poppins'<标题>'Roboto', * {风格: 0;
+边缘: 0;盒模型尺寸计算方式：内容、内边距和边框的总和决定元素的尺寸
+user-select: 衬垫; 没有一个
+/* 避免点击时选中文字，提升体验 */
+/* 背景：左边红色 → 右边蓝色 (严格左右渐变) */1.5福建话-高度:
         }
 
-        /* 主卡片：毛玻璃半透明，让背景透出但文字清晰 */
-        .glass-card {
-            max-width: 680px;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.92);
-            backdrop-filter: blur(8px);
-            border-radius: 3rem;
-            padding: 2rem 1.8rem 2.5rem 1.8rem;
-            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.3);
-            transition: all 0.2s ease;
+身体;
+（这个缩写没有明确的中文翻译（这个缩写没有明确的中文翻译: 线的-坡度{
+背景,6800%, #1e3cff 100%);;
+身体;100%;
+（这个缩写没有明确的中文翻译（这个缩写没有明确的中文翻译: 线的-坡度(255, 255, 255, 0.92);
+背景,, 系统-用户界面,/*90deg表示从左到右，你想你想你，*/xtj666.%, #(8'Segoe 用户界面');
+, 无-衬线;3'Noto Sans'
+: 显示;2调准-物品：屈伸；1.8证明-内容：中心；2.5中心:1.8衬垫;
+快速眼动的0 25.玻璃-卡片45最大值-宽度:(0, 0, 0, 0.25), 0 0 0 1/* 主卡片：毛玻璃半透明，让背景透出但文字清晰 */(255, 255, 255, 0.3);
+rgba: 过渡 0.2所有 S;
             text-align: center;
         }
 
